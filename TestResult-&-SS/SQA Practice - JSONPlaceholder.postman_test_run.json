@@ -1,0 +1,311 @@
+{
+	"id": "03a3b1fd-49f3-45ae-9d53-a23fe1158957",
+	"name": "SQA Practice - JSONPlaceholder",
+	"timestamp": "2025-06-25T19:18:23.660Z",
+	"collection_id": "46110875-2fe8adee-1217-4ada-8630-620c38b8e723",
+	"folder_id": 0,
+	"environment_id": "46110875-2fb20662-fd3d-4821-ba6a-1f0fb0a8c58c",
+	"totalPass": 24,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-06-25T19:18:06.930Z",
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "fdabe6f2-88c1-40de-a747-b3b8f32c8262",
+			"name": "Get All Users",
+			"url": "https://jsonplaceholder.typicode.com/users",
+			"time": 177,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				316,
+				188,
+				177
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true
+				},
+				{
+					"Response status code is 200": true
+				},
+				{
+					"Response status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1e19b050-a055-4d92-8211-99c2af6de1df",
+			"name": "Create Single Use",
+			"url": "https://jsonplaceholder.typicode.com/users",
+			"time": 568,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status is 201": true,
+				"Contains updated name": true
+			},
+			"testPassFailCounts": {
+				"Status is 201": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Contains updated name": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				1012,
+				955,
+				568
+			],
+			"allTests": [
+				{
+					"Status is 201": true,
+					"Contains updated name": true
+				},
+				{
+					"Status is 201": true,
+					"Contains updated name": true
+				},
+				{
+					"Status is 201": true,
+					"Contains updated name": true
+				}
+			]
+		},
+		{
+			"id": "73bc6869-516c-4e52-8936-21249d91f824",
+			"name": "Update Post",
+			"url": "https://jsonplaceholder.typicode.com/posts/2",
+			"time": 539,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status is 200": false,
+				"Response status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status is 200": {
+					"pass": 0,
+					"fail": 3
+				},
+				"Response status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				402,
+				913,
+				539
+			],
+			"allTests": [
+				{
+					"Status is 200": false,
+					"Response status code is 200": true
+				},
+				{
+					"Status is 200": false,
+					"Response status code is 200": true
+				},
+				{
+					"Status is 200": false,
+					"Response status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d2f16bf1-01d6-40a7-8d3b-dccf93dad3dd",
+			"name": "Delete User by ID",
+			"url": "https://jsonplaceholder.typicode.com/users/3",
+			"time": 313,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status is 200": true
+			},
+			"testPassFailCounts": {
+				"Status is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				745,
+				501,
+				313
+			],
+			"allTests": [
+				{
+					"Status is 200": true
+				},
+				{
+					"Status is 200": true
+				},
+				{
+					"Status is 200": true
+				}
+			]
+		},
+		{
+			"id": "71785a8d-1f4e-4253-9844-3029ac426a56",
+			"name": "Update User",
+			"url": "https://jsonplaceholder.typicode.com/users/8",
+			"time": 931,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status is 200": true
+			},
+			"testPassFailCounts": {
+				"Status is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				789,
+				1000,
+				931
+			],
+			"allTests": [
+				{
+					"Status is 200": true
+				},
+				{
+					"Status is 200": true
+				},
+				{
+					"Status is 200": true
+				}
+			]
+		},
+		{
+			"id": "788ac36f-62c3-4da6-9943-e79f1b98cb2d",
+			"name": "Get Single Users",
+			"url": "https://jsonplaceholder.typicode.com/users/7",
+			"time": 334,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status is 200": true
+			},
+			"testPassFailCounts": {
+				"Status is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				892,
+				896,
+				334
+			],
+			"allTests": [
+				{
+					"Status is 200": true
+				},
+				{
+					"Status is 200": true
+				},
+				{
+					"Status is 200": true
+				}
+			]
+		},
+		{
+			"id": "0b90a712-8c9e-4b71-90b5-a1a74a00e9bd",
+			"name": "Create New User from CSV",
+			"url": "https://jsonplaceholder.typicode.com/users",
+			"time": 479,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status is 201": true
+			},
+			"testPassFailCounts": {
+				"Status is 201": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				915,
+				320,
+				479
+			],
+			"allTests": [
+				{
+					"Status is 201": true
+				},
+				{
+					"Status is 201": true
+				},
+				{
+					"Status is 201": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 13185,
+	"collection": {
+		"requests": [
+			{
+				"id": "fdabe6f2-88c1-40de-a747-b3b8f32c8262",
+				"method": "GET"
+			},
+			{
+				"id": "1e19b050-a055-4d92-8211-99c2af6de1df",
+				"method": "POST"
+			},
+			{
+				"id": "73bc6869-516c-4e52-8936-21249d91f824",
+				"method": "PUT"
+			},
+			{
+				"id": "d2f16bf1-01d6-40a7-8d3b-dccf93dad3dd",
+				"method": "DELETE"
+			},
+			{
+				"id": "71785a8d-1f4e-4253-9844-3029ac426a56",
+				"method": "PUT"
+			},
+			{
+				"id": "788ac36f-62c3-4da6-9943-e79f1b98cb2d",
+				"method": "GET"
+			},
+			{
+				"id": "0b90a712-8c9e-4b71-90b5-a1a74a00e9bd",
+				"method": "POST"
+			}
+		]
+	}
+}
