@@ -1,5 +1,10 @@
 # User Management API Testing Project (Postman)
 
+## API Source
+This project uses [JSONPlaceholder](https://jsonplaceholder.typicode.com/) — a free online REST API used for testing and prototyping.
+
+All test scenarios (GET, POST, PUT, DELETE) are based on endpoints provided by this mock API.
+
 ## 🔧 Tools Used:
 - Postman
 - pm.test scripting
